@@ -14,10 +14,10 @@ This RAG pipeline answers user questions by retrieving and ranking the most rele
 1. **User submits a query.**
 
    The system takes the query text and prepares it for retrieval.
-2. **Retrieve the top 20 chunks by semantic similarity.**
+2. **Retrieve the top 25 chunks by semantic similarity.**
 
    The vector database returns the 25 most semantically similar chunks based on MPNet embeddings.
-3. **Re-rank  and filter the 20 chunks using title matching.**
+3. **Re-rank  and filter the 25 chunks using title matching.**
 
    Here the documents are reranked  by taking into account both vector similarity score and title matching score.
    Title matching score is calculated  by counting how many words of the query appear in the chunk's title metadata
@@ -26,7 +26,7 @@ This RAG pipeline answers user questions by retrieving and ranking the most rele
 
    1. It has improved retrieval for queries that spans multiple topics
    2. The titles in the document  are very descriptive of the content.
-4. **Filter the 20 chunks down to the top 5.**
+4. **Filter the 25 chunks down to the top 5.**
 
    After combining semantic similarity and title relevance, the system keeps only the 5 best chunks.
 
@@ -128,7 +128,7 @@ It is a  **local** , state-of-the-art sentence embedding model designed to conve
 
 ## *pipeline.py*
 
-This file contains the  main logic of building the rag_pipeline.
+This file contains the  main logic of the rag_pipeline.
 
 Here is the  the visualisation of the pipeline
 
