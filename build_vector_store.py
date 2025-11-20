@@ -7,6 +7,7 @@ from langchain_huggingface import HuggingFaceEndpointEmbeddings
 from langchain_chroma import Chroma
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from  dotenv import load_dotenv
+from embeddings import  load_embeddings
 
 load_dotenv()
 
@@ -98,15 +99,7 @@ def build_vector_store():
     all_docs += load_json_docs(tables_path, default_type="table")
     all_docs += load_json_docs(diagrams_path, default_type="diagram")
 
-    # 2) Set up Hugging Face Inference API embeddings
-    hf_token = os.environ.get("HUGGING_FACE_TOKEN")
-    if not hf_token:
-        raise RuntimeError("HUGGING_FACE_TOKEN not set")
-
-    embeddings = HuggingFaceEndpointEmbeddings(
-        model="sentence-transformers/all-mpnet-base-v2",
-        huggingfacehub_api_token=hf_token,
-    )
+    embeddings =load_embeddings()
 
     # 3) Create / overwrite local Chroma store
     vectordb = Chroma.from_documents(
