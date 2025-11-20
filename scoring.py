@@ -15,12 +15,12 @@ def title_weighted_reranker(inputs):
             }
 
     Returns:
-        list[Document] (top 5)
+        list[Document] (top 8)
     """
     results = inputs["results"]
     query = inputs["query"]
     weight = inputs["weight"]
-    top_k = 5
+    top_k = 8
 
     scored = []
 

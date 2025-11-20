@@ -52,7 +52,7 @@ def build_pipeline(vectordb, llm):
     retrieval_inputs = RunnableParallel({
         "query": RunnablePassthrough(),
         "vectordb": lambda _: vectordb,
-        "k": lambda _: 20,
+        "k": lambda _: 25,
         "title_match_score_weight": lambda _: 10,
     })
 
