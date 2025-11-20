@@ -1,0 +1,470 @@
+[
+    {
+        "chapter": "Performance dispatch",
+        "section": "Quick Turnaround Limit Weight",
+        "page_number": 102,
+        "title": "Quick Turnaround Limit Weight - Flaps 40",
+        "description": "This table provides maximum allowed quick-turnaround takeoff weights (in thousands of kilograms) for Flaps 40, based on outside air temperature (OAT) and airport pressure altitude. The limit weights decrease with higher temperature and higher altitude, reflecting brake energy and cooling limitations. The following adjustments apply: increase weight by 700 kg per 1% uphill slope and decrease by 950 kg per 1% downhill slope; increase weight by 1750 kg per 10 knots headwind and decrease by 6400 kg per 10 knots tailwind. After landing at weights exceeding those shown (including slope and wind adjustments), a minimum 62-minute wait is required, and wheel thermal plugs must be checked to ensure they have not melted before takeoff. As an alternate brake cooling verification method, ensure that each brake pressure plate surface temperature is below 218°C without artificial cooling. No sooner than 10 minutes and no later than 15 minutes after parking, measure each brake at a minimum of two points using an accurate method such as a Doric Microtemp 450 thermometer, maintaining probe contact for 20 seconds or until stabilized. If every measured temperature is below 218°C, immediate dispatch is allowed; otherwise the 62-minute minimum ground wait still applies.",
+        "csv_path": "tables/performance_dispatch/quick_turnaround_limit_weight.csv",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Go-Around Climb Gradient",
+        "page_number": 101,
+        "title": "Go-Around Climb Gradient – Flaps 15",
+        "description": "This table provides reference go-around climb gradients (in percent) for a go-around performed with Flaps 15, based on engine bleed configuration of packs ON and anti-ice OFF. Values are provided as a function of Outside Air Temperature (OAT, in °C) and pressure altitude (0, 1000, 2000, and 3000 feet). The gradients represent expected aircraft climb performance during a go-around maneuver.\n\nThe table heading states: 'Go-Around Climb Gradient — Flaps 15 — Based on engine bleed for packs on and anti-ice off — Reference Go-Around Gradient (%)'.",
+        "csv_path": "tables/performance_dispatch/go_around_climb_gradient.csv",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Gradient Adjustment for Weight (%)",
+        "page_number": 101,
+        "title": "Gradient Adjustment for Weight",
+        "csv_path": "tables/performance_dispatch/gradient_adjustment_weight.csv",
+        "description": "Performance dispatch – table providing gradient adjustment values (in percent) for various aircraft weights from 40,000 to 65,000 kg across reference go-around gradients from 0% to 7%. Values show the correction applied to the reference go-around climb gradient based on weight. Useful for performance calculations involving go-around climb capability and regulatory compliance.",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Gradient Adjustment for Speed",
+        "page_number": 101,
+        "csv_path": "tables/performance_dispatch/gradient_adjustment_speed.csv",
+        "title": "Gradient Adjustment for Speed (%)",
+        "description": "Performance dispatch – Table shows gradient adjustments (%) for various approach speeds (VREF to VREF+30) against weight-adjusted go-around reference gradients. Includes operational correction notes: increase gradient by 0.3% with engine bleed for packs off; decrease by 0.1% with engine anti-ice on; decrease by 0.3% with engine and wing anti-ice on; decrease by 0.6% when operating in icing conditions with temperatures below 10°C.",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Landing Climb Limit Weight",
+        "page_number": 100,
+        "csv_path": "tables/performance_dispatch/landing_climb_limit_weight.csv",
+        "title": "Landing Climb Limit Weight",
+        "description": "Performance dispatch – Table provides landing climb limit weights (in thousands of kilograms) for approaches with Flaps 15 and landings with Flaps 30 or 40, based on airport outside air temperature and airport pressure altitude. Values assume engine bleed for packs on and anti-ice off. Operational adjustments: increase weight by 1100 kg with engine bleed for packs off; decrease weight by 200 kg with engine anti-ice on; decrease weight by 950 kg with engine and wing anti-ice on; when operating in icing conditions during any part of the flight with forecast landing temperatures below 10°C, decrease weight by 4550 kg.",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Landing Field Limit Weight",
+        "page_number": 99,
+        "title": "Landing Field Limit Weight (1000 KG)",
+        "csv_path": "tables/performance_dispatch/landing_field_limit_weight.csv",
+        "description": "Performance dispatch. Table provides maximum allowable landing field limit weights (in thousands of kilograms) for various corrected field lengths under dry and wet runway conditions at pressure altitudes of 0, 1000, 2000, and 3000 ft. Includes operational note: decrease field limit weight by 4500 kg when using manual speed brakes.",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Landing Field Limit Weight – Wind Corrected Field Length",
+        "page_number": 99,
+        "title": "Wind Corrected Field Length (M)",
+        "csv_path": "tables/performance_dispatch/landing_field_limit_wind_corrected.csv",
+        "description": "Performance dispatch. Table provides wind-corrected landing field length in meters for Flaps 40. Shows available field length and required length after corrections for headwind or tailwind components from –15 to +40 knots.",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "ENGINE INOP – Long Range Cruise Critical Fuel Reserves",
+        "page_number": 97,
+        "title": "Ground to Air Miles Conversion – Headwind Component",
+        "description": "Part of the Long Range Cruise Critical Fuel Reserves tables used during performance dispatch. This table provides conversion from ground distance (NM) to air distance (NM) under varying headwind components (100 to 20 knots). It allows determining required air distance when planning single-engine cruise segments. Includes only the headwind portion of the Ground-to-Air Miles Conversion chart.",
+        "csv_path": "tables/performance_dispatch/engine_inop_ground_to_air_headwind_only.csv",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "ENGINE INOP – Long Range Cruise Critical Fuel Reserves",
+        "page_number": 97,
+        "title": "Ground to Air Miles Conversion – Tailwind Component",
+        "description": "Part of the Long Range Cruise Critical Fuel Reserves tables used during performance dispatch. This table converts ground distance (NM) to air distance (NM) for various tailwind components (20 to 100 knots). Used to determine air distance requirements when operating under single-engine conditions. Includes only the tailwind portion of the Ground-to-Air Miles Conversion chart.",
+        "csv_path": "tables/performance_dispatch/engine_inop_ground_to_air_tailwind_only.csv",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Engine Inoperative Reserves",
+        "page_number": 97,
+        "title": "Critical Fuel (1000 KG)",
+        "csv_path": "tables/performance_dispatch/critical_fuel_table.csv",
+        "description": "Table provides required critical fuel load (in thousands of kilograms) based on air distance and aircraft weight at the critical point. Part of Performance dispatch. Includes considerations such as emergency descent to 10000 ft, level cruise at 10000 ft, 250 KIAS descent to 1500 ft, 15-minute hold, one missed approach, approach and landing, and a 5% wind-error allowance. Fuel must be increased by 0.8% per 10°C above ISA. In icing conditions, increase by 15% to account for engine/wing anti-ice and ice accumulation on unheated surfaces. Performance deterioration is not included. Operators must compare these values with all-engines-operative critical fuel reserves and use the higher value.",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Engine Inoperative – Max Continuous Thrust",
+        "page_number": 95,
+        "title": "Net Level Off Weight",
+        "csv_path": "tables/performance_dispatch/net_level_off_weight.csv",
+        "description": "Performance dispatch – this table provides the maximum level-off weight (in 1000 kg) for engine-inoperative conditions at various pressure altitudes. Values are given for ISA +10°C and below, ISA +15°C, and ISA +20°C ambient temperatures.",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Crew Oxygen Requirements",
+        "page_number": 94,
+        "title": "Required Pressure (PSI) for 76 Cu. Ft. Cylinder",
+        "csv_path": "tables/performance_dispatch/crew_oxygen_76cu.csv",
+        "description": "Performance dispatch – table shows required oxygen bottle pressure (PSI) for a 76 cu ft cylinder based on bottle temperature (°C/°F) and the number of crew using oxygen.",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Crew Oxygen Requirements",
+        "page_number": 94,
+        "title": "Required Pressure (PSI) for 114/115 Cu. Ft. Cylinder",
+        "csv_path": "tables/performance_dispatch/crew_oxygen_114cu.csv",
+        "description": "Performance dispatch – table shows required oxygen bottle pressure (PSI) for a 114/115 cu ft cylinder based on bottle temperature (°C/°F) and the number of crew using oxygen.",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Trip Fuel and Time Required",
+        "page_number": 93,
+        "csv_path": "tables/performance_dispatch/trip_fuel_time.csv",
+        "title": "Trip Fuel and Time Required",
+        "description": "Part of the Performance dispatch chapter. Table provides fuel burn, cruise altitude, and time required for trips from 50 to 500 NM at various landing weights. Fuel values are in thousands of kilograms and altitudes in feet. Times represent total trip time including climb, cruise, and descent, based on 280/78 climb, long-range cruise, and .78/280/250 descent.",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Short Trip Fuel and Time",
+        "page_number": 93,
+        "csv_path": "tables/performance_dispatch/short_trip_ground_to_headwind.csv",
+        "title": "Short Trip Fuel and Time – Ground to Air Miles Conversion",
+        "description": "Part of the Performance dispatch chapter. Table converts ground distance (NM) to equivalent air distance under various headwind components (100 to 20 knots). Useful for computing short-trip fuel burn by adjusting for wind effects.",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Short Trip Fuel and Time",
+        "page_number": 93,
+        "csv_path": "tables/performance_dispatch/short_trip_tailwind_ground_to_air.csv",
+        "title": "Short Trip Fuel and Time – Ground to Air Miles Conversion (Tailwind)",
+        "description": "Part of the Performance dispatch chapter. Table converts ground distance (NM) to equivalent air distance under various tailwind components (20 to 100 knots). Useful for estimating short-trip fuel burn adjustments when experiencing tailwinds.",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Holding Planning",
+        "page_number": 93,
+        "csv_path": "tables/performance_dispatch/holding_planning_flaps_up.csv",
+        "title": "Holding Planning – Flaps Up",
+        "description": "Part of the Performance dispatch chapter. Table shows total fuel flow (kg/hr) during holding with flaps up, across a range of aircraft weights and pressure altitudes (1500 to 41000 ft). Includes 5% additional fuel for racetrack-pattern holding.",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Trip Fuel and Time Required",
+        "page_number": 92,
+        "csv_path": "tables/performance_dispatch/trip_fuel_time_required.csv",
+        "title": "Trip Fuel and Time Required",
+        "description": "Part of the Performance dispatch chapter. Table provides trip fuel (in 1000 kg) for various air distances and landing weights (30–60 thousand kg), along with required time (hours:minutes). Based on 280/0.78 climb, Long Range Cruise or .79 cruise, and .78/280/250 descent. Valid for all pressure altitudes with a 4000 ft step climb to 2000 ft above optimum altitude. This table is specifically associated with Long Range Cruise Step Climb performance.",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Long Range Cruise Step Climb – Ground to Air Miles Conversion",
+        "page_number": 92,
+        "title": "Long Range Cruise Step Climb – Tailwind Conversion",
+        "csv_path": "tables/performance_dispatch/long_range_cruise_step_climb_tailwind.csv",
+        "description": "Part of the Performance dispatch chapter. Table provides air distance (NM) equivalents for given ground distances under various tailwind components (20–100 knots). Used for Long Range Cruise Step Climb dispatch calculations to account for tailwind effects on required air miles.",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Long Range Cruise Step Climb – Ground to Air Miles Conversion",
+        "page_number": 92,
+        "csv_path": "tables/performance_dispatch/long_range_cruise_step_climb_headwind.csv",
+        "title": "Ground to Air Miles Conversion (Long Range Cruise Step Climb) (headwind)",
+        "description": "Part of the Performance dispatch chapter. Table converts ground distance (1000–5000 NM) to air distance under varying headwind components (100 to 20 knots). Used for Long Range Cruise Step Climb performance calculations, helping determine required air miles given wind effects at step climb cruise profiles.",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Long Range Cruise Trip Fuel and Time",
+        "page_number": 91,
+        "title": "Long Range Cruise Step Climb Reference fuel and time required ",
+        "description": "Reference fuel and time required for long-range cruise at various air distances and pressure altitudes. Includes fuel required adjustments table (1000 KG). Valid for pressure altitudes with 4000 ft step climb to 2000 ft above optimum altitude. Based on 280/.78 climb, long-range cruise, and .78/280/250 descent.",
+        "csv_path": "tables/performance_dispatch/long_range_cruise_trip_fuel_time.csv",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Long Range Cruise Trip Fuel and Time",
+        "title": "Full Requirement Adjustments",
+        "page_number": 91,
+        "csv_path": "tables/performance_dispatch/fuel_required_adjustments.csv",
+        "description": "Table provides fuel adjustment values (in thousands of kilograms) to be applied to reference fuel required based on landing weight for Long Range Cruise Trip Fuel and Time. Includes adjustments for landing weights of 30, 40, 50, and 60 thousand kilograms. Based on 280/.78 climb, Long Range Cruise and .78/280/250 descent.",
+        "type": "table"
+    },
+    {
+        "csv_path": "tables/performance_dispatch/long_range_cruise_trip_fuel_air_miles_conversion.csv",
+        "chapter": "Performance dispatch",
+        "title": "Ground to Air Miles Conversion (Headwind)",
+        "section": "Long Range Cruise Trip Fuel and Time",
+        "page_number": 90,
+        "description": "Table provides air distance (NM) for various headwind components (100 to 20 kt) as a function of ground distance (200 to 5000 NM), used for Long Range Cruise Trip Fuel and Time calculations in Performance Dispatch.",
+        "type": "table"
+    },
+    {
+        "csv_path": "tables/performance_dispatch/long_range_cruise_trip_fuel_air_miles_conversion_tailwind.csv",
+        "chapter": "Performance dispatch",
+        "title": "Long Range Cruise Trip Fuel and Time",
+        "section": "Ground to Air Miles Conversion – Tailwind Component",
+        "page_number": 90,
+        "description": "Table provides air distance (NM) as a function of tailwind component (KTS) and ground distance (NM). Used for Long Range Cruise Trip Fuel and Time calculations under Performance Dispatch.",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Long Range Cruise Maximum Operating Altitude",
+        "page_number": 89,
+        "title": "Maximum Operating Altitude – ISA +10°C and Below",
+        "csv_path": "tables/performance_dispatch/long_range_cruise_moa_isa10.csv",
+        "description": "Table shows maximum operating altitude margins to initial buffet for various bank angles under ISA +10°C and below conditions, part of the Performance dispatch chapter.",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Long Range Cruise Maximum Operating Altitude",
+        "page_number": 89,
+        "title": "Maximum Operating Altitude – ISA +15°C",
+        "csv_path": "tables/performance_dispatch/long_range_cruise_moa_isa15.csv",
+        "description": "Table shows maximum operating altitude margins to initial buffet for various bank angles under ISA +15°C conditions, part of the Performance dispatch chapter.",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Long Range Cruise Maximum Operating Altitude",
+        "page_number": 89,
+        "title": "Maximum Operating Altitude – ISA +20°C",
+        "csv_path": "tables/performance_dispatch/long_range_cruise_moa_isa20.csv",
+        "description": "Table shows maximum operating altitude margins to initial buffet for various bank angles under ISA +20°C conditions, part of the Performance dispatch chapter.",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Takeoff Obstacle Limit Weight",
+        "page_number": 90,
+        "title": "Takeoff Obstacle Limit Weight – Flaps 5, Sea Level 30°C & Below",
+        "csv_path": "tables/performance_dispatch/takeoff_obstacle_limit_weight_flaps5.csv",
+        "description": "Table provides obstacle-limited takeoff weight adjustments (in 1000 kg) for Flaps 5 at sea level with OAT 30°C and below. Includes wind-component adjustments for tailwind and headwind, based on engine bleed for packs on and anti-ice off. Notes include weight corrections for packs off, engine anti-ice on, and engine+wing anti-ice on.",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Takeoff Obstacle Limit Weight",
+        "page_number": 87,
+        "title": "Reference Obstacle Limit Weight (1000 KG)",
+        "csv_path": "tables/performance_dispatch/obstacle_limit_reference.csv",
+        "description": "Performance dispatch table defining the reference takeoff obstacle-limit weight (in 1000 kg) for Flaps 5 at sea level 30°C and below with zero wind. Indexed by obstacle height and distance from brake release. Includes operational requirements: obstacle height must be measured from the lowest point of the runway to account for slope, and when using line-up allowances the obstacle distance from brake release must be reduced using the ASDA adjustment.",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Takeoff Obstacle Limit Weight",
+        "page_number": 87,
+        "title": "OAT Adjustments",
+        "csv_path": "tables/performance_dispatch/obstacle_limit_oat_adjust.csv",
+        "description": "Performance dispatch table providing outside air temperature (OAT) adjustment values (in 1000 kg) to be applied to the reference obstacle-limit takeoff weight for Flaps 5. Covers temperatures from 30°C to 50°C across weights 40–68 (1000 kg). Includes operational note: obstacle height must be referenced to the lowest point of the runway and obstacle distance must be reduced by ASDA when line-up allowances are used.",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Takeoff Obstacle Limit Weight",
+        "page_number": 87,
+        "title": "Pressure Altitude Adjustments",
+        "csv_path": "tables/performance_dispatch/obstacle_limit_alt_adjust.csv",
+        "description": "Performance dispatch table giving obstacle limit weight adjustments (in 1000 kg) for pressure altitude. Adjustments are listed for sea level and below, 1000, 2000, and 3000 ft, and applied to the reference obstacle limit weight for weights 40–68 (1000 kg).",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Takeoff Field & Climb Limit Weights – Wet Runway",
+        "page_number": 86,
+        "title": "Field Limit Weight – Wet Runway – 2000 FT Pressure Altitude",
+        "csv_path": "tables/performance_dispatch/takeoff_field_climb_limit_2000ft.csv",
+        "description": "Field limit takeoff weight (in 1000 kg) for wet runway conditions at 2000 ft pressure altitude using Flaps 5. Table is indexed by corrected field length and outside air temperature (OAT). Includes climb limit weight values.",
+        "type": "table"
+    },
+    {
+        "chapter": "Performance dispatch",
+        "section": "Takeoff Field & Climb Limit Weights – Wet Runway",
+        "page_number": 86,
+        "title": "Field Limit Weight – Wet Runway – 3000 FT Pressure Altitude",
+        "csv_path": "tables/performance_dispatch/takeoff_field_climb_limit_3000ft.csv",
+        "description": "Field limit takeoff weight (in 1000 kg) for wet runway conditions at 3000 ft pressure altitude using Flaps 5. Table is indexed by corrected field length and outside air temperature (OAT). Includes climb limit weight values.",
+        "type": "table"
+    },
+    {
+        "csv_path": "tables/performance_dispatch/takeoff_field_climb_limit_wet_runway_sea_level.csv",
+        "chapter": "Performance dispatch",
+        "title": "Takeoff Field & Climb Limit Weights - Wet Runway Sea Level Pressure Altitude",
+        "section": "Sea Level Pressure Altitude",
+        "page_number": 85,
+        "description": "This table provides FIELD LIMIT WEIGHT (1000 KG) for wet runway takeoff performance at sea level pressure altitude, using Flaps 5, with temperature corrections (OAT) in both °C and °F across corrected field lengths.",
+        "type": "table"
+    },
+    {
+        "csv_path": "tables/performance_dispatch/takeoff_field_climb_limit_wet_runway_1000ft.csv",
+        "chapter": "Performance dispatch",
+        "title": "Takeoff Field & Climb Limit Weights - Wet Runway 1000 FT Pressure Altitude ",
+        "section": "1000 FT Pressure Altitude Takeoff Field & Climb Limit Weights - Wet Runway",
+        "page_number": 85,
+        "description": "This table provides FIELD LIMIT WEIGHT (1000 KG) for wet runway takeoff performance at 1000 ft pressure altitude using Flaps 5. Values are organized by corrected field length (meters) and outside air temperature (OAT) expressed in both °C and °F, including climb limit weight at the bottom.",
+        "type": "table"
+    },
+    {
+        "csv_path": "tables/performance_dispatch/takeoff_climb_limit_slope_corrections.csv",
+        "chapter": "Performance dispatch",
+        "title": "Slope Corrections",
+        "section": "Takeoff Field & Climb Limit Weights - Wet Runway",
+        "page_number": 84,
+        "description": "This table provides slope-corrected field lengths (in meters) for various available runway lengths under different runway slope conditions ranging from −2.0% to +2.0%. Values show the adjusted field length required to account for uphill or downhill slope effects on takeoff performance. Used within the Performance dispatch chapter.",
+        "type": "table"
+    },
+    {
+        "csv_path": "tables/performance_dispatch/take_off_climb_limit_wind_corrections.csv",
+        "chapter": "Performance dispatch",
+        "title": "Wind Corrections",
+        "section": "Takeoff Field & Climb Limit Weights – Wet Runway (Corrections)",
+        "page_number": 84,
+        "description": "Table providing slope- and wind-corrected field lengths (meters) for dispatch planning, showing how wind components from –15 to +40 knots modify the slope-corrected field length. Part of the Takeoff Field & Climb Limit Weights – Wet Runway section and used for performance dispatch assessments.",
+        "type": "table"
+    },
+    {
+        "csv_path": "tables/performance_dispatch/takeoff_field_climb_limit_dry_2000ft.csv",
+        "chapter": "Performance dispatch",
+        "title": "Takeoff Field & Climb Limit Weights - Dry Runway",
+        "section": "2000 FT Pressure Altitude",
+        "page_number": 83,
+        "description": "Field limit weights (1000 KG) for takeoff on a dry runway with flaps 5 at 2000 FT pressure altitude, presented as a function of corrected field length (m) and outside air temperature (OAT in °C/°F).",
+        "type": "table"
+    },
+    {
+        "csv_path": "tables/performance_dispatch/takeoff_field_climb_limit_3000ft_dry.csv",
+        "chapter": "Performance dispatch",
+        "title": "3000 FT Pressure Altitude",
+        "section": "Takeoff Field & Climb Limit Weights - Dry Runway",
+        "page_number": 83,
+        "description": "Table provides field limit weights (1000 KG) for dry runway operations at 3000 FT pressure altitude under various corrected field lengths and outside air temperatures.",
+        "type": "table"
+    },
+    {
+        "csv_path": "tables/performance_dispatch/takeoff_field_climb_limit_dry_1000ft.csv",
+        "chapter": "Performance dispatch",
+        "title": "1000 FT Pressure Altitude",
+        "section": "Takeoff Field & Climb Limit Weights – Dry Runway",
+        "page_number": 82,
+        "description": "Field limit weight (1000 KG) table for dry runway, flaps 5, at 1000 FT pressure altitude.",
+        "type": "table"
+    },
+    {
+        "csv_path": "tables/performance_dispatch/takeoff_field_climb_limit_sea_level_dry.csv",
+        "chapter": "Performance dispatch",
+        "title": "Takeoff Field & Climb Limit Weights – Dry Runway",
+        "section": "Sea Level Pressure Altitude",
+        "page_number": 82,
+        "description": "Field limit weight (1000 KG) table for dry runway, flaps 5, at sea level pressure altitude.",
+        "type": "table"
+    },
+    {
+        "csv_path": "tables/performance_dispatch/slope_corrections_dry_runway.csv",
+        "chapter": "Performance dispatch",
+        "title": "Slope Corrections – Dry Runway",
+        "section": "Takeoff Field Corrections – Dry Runway",
+        "page_number": 81,
+        "description": "Table provides slope-corrected field length adjustments for various runway slopes during take off. Part of Performance dispatch.",
+        "type": "table"
+    },
+    {
+        "csv_path": "tables/performance_dispatch/wind_corrections_dry_runway.csv",
+        "chapter": "Performance dispatch",
+        "title": "Wind Corrections",
+        "section": "Takeoff Field Corrections – Dry Runway",
+        "page_number": 81,
+        "description": "Wind Corrections table showing slope-corrected and wind-corrected field length values  during take offfor performance dispatch.",
+        "type": "table"
+    },
+    {
+        "csv_path": "tables/normal_procedures/engine_start.csv",
+        "chapter": "Normal Procedures",
+        "title": "Engine Start Procedure",
+        "section": "Engine Start Procedure",
+        "page_number": 33,
+        "description": "This table outlines the coordinated engine start duties for the Captain and First Officer. Captain actions include initiating the start sequence, calling out the engine start, setting the ENGINE START switch to GRD, and positioning the engine start lever to IDLE at the correct N2 or motoring conditions. The First Officer verifies oil pressure rise and makes callouts. Joint tasks include verifying N2 rotation, fuel flow, EGT increase, and monitoring all engine parameters until idle stabilization. Both crew members perform the 'starter cutout' verification depending on whether automatic or manual ignition is in use.",
+        "type": "table"
+    },
+    {
+        "chapter": "Normal Procedures",
+        "section": "Takeoff Procedure",
+        "title": "Takeoff Procedure",
+        "page_number": 39,
+        "csv_path": "tables/normal_procedures/take_off_procedure.csv",
+        "description": "This table outlines the Takeoff Procedure divided into actions for the Pilot Flying (PF), Pilot Not Flying (PNF), and shared tasks. PF responsibilities include thrust advancement, rotation, directional control, and initial climb actions. PNF responsibilities include callouts, monitoring engine parameters, verifying annunciations, and gear retraction. Shared responsibilities include observing engine stabilization and maintaining situational awareness. Notes include conditions for headwind-induced thrust lever behavior and mandatory captain hand placement on thrust levers until V1.",
+        "type": "table"
+    },
+    {
+        "chapter": "Normal Procedures",
+        "section": "After Takeoff Procedure",
+        "title": "After Takeoff Procedure",
+        "page_number": 40,
+        "csv_path": "tables/normal_procedures/after_take_off_procedure.csv",
+        "description": "This table outlines duties during the after-takeoff phase for both the Pilot Flying (PF) and Pilot Not Flying (PNF). Items include initial climb speed management, roll-mode selection, thrust-reduction logic with and without auto T/O thrust reduction, autopilot engagement criteria, flap-retraction schedule, checklist handling, and verification of VNAV or climb-mode annunciations. The structure separates tasks by crew role for clarity, while maintaining paired procedural steps where coordination is required.CAUTION: To avoid the possibility of shoulder harness bucklessnapping  back  and  pulling  or  damaging  circuitbreakers, hold both straps before releasing and thenallow straps to retract slowly to the stowed position",
+        "type": "table"
+    },
+    {
+        "chapter": "Normal Procedures",
+        "section": "Takeoff Flap Retraction Speed Schedule",
+        "title": "Takeoff Flap Retraction Speed Schedule",
+        "page_number": 41,
+        "csv_path": "tables/normal_procedures/flap_retraction_sleep_schedule.csv",
+        "description": "This table provides the standardized flap retraction schedule for takeoff based on the initial takeoff flap setting. For each T/O flap configuration (25, 15, 10, 5, 1), the table specifies the sequence of flap positions to select (e.g., 15, 5, 1, UP) and the airspeeds at which each retraction should occur. Airspeeds are given as V2 + 15 followed by maneuvering speeds corresponding to flap settings ('15', '5', '1', 'UP'). The schedule is applicable for all aircraft weights.\n\nAdditional Notes:\n• “UP” refers to the flaps-up maneuvering speed.\n• “1”, “5”, “10”, “15”, “25” represent flap maneuvering speeds associated with those flap settings.\n• Limit bank angle to 15 degrees until reaching V2 + 15.",
+        "type": "table"
+    },
+    {
+        "chapter": "Normal Procedures",
+        "section": "Climb and Cruise Procedure",
+        "title": "Climb and Cruise Procedure",
+        "page_number": 42,
+        "csv_path": "tables/normal_procedures/climb_cruise_procedure.csv",
+        "description": "This table outlines the responsibilities of the Pilot Flying (PF) and Pilot Not Flying (PNF) during the climb and cruise phases. Some tasks are exclusive to one role, while others are coordinated. The PF tasks focus on flight path management, altitude setting, and monitoring key mode annunciations. The PNF responsibilities include system monitoring such as landing lights, center tank pump management, crossfeed checks, approach setup, and verifying procedures at top of descent. Notes clarify additional fuel pump logic: (1) If LOW PRESSURE lights illuminate during takeoff or initial climb, center tank pumps may remain on until lights extinguish or workload permits turning them off. (2) In level cruise, if the center tank contains usable fuel and pumps are off, they must be turned ON again, especially if more than 1000 lbs/453 kg fuel remains. Pumps must be turned OFF again when LOW PRESSURE lights illuminate. These notes ensure safety and proper handling of the fuel system.",
+        "type": "table"
+    },
+    {
+        "chapter": "Normal Procedures",
+        "section": "Descent and Approach Procedure",
+        "title": "Descent and Approach Procedure",
+        "page_number": 43,
+        "csv_path": "tables/normal_procedures/descent_approach.csv",
+        "description": "This table outlines the responsibilities of the Pilot Flying (PF) and the Pilot Not Flying (PNF) during the Descent and Approach Procedure. Each row shows the specific task assigned to either PF or PNF, and some tasks apply only to one role while others require coordination. The table captures operational duties such as fuel pump management, VREF verification, altimeter settings, auto brake setup, navigation radio configuration, approach preparation, landing light operation, flap configuration, and procedural callouts. The structure makes role-based duties explicit for both pilots.\n\nAdditional notes included in this section clarify fuel pump handling logic: A center tank LOW PRESSURE light during descent requires switching center tank pumps OFF. When level in cruise or approach with usable fuel remaining, center tank pumps must be turned ON again—especially if fuel exceeds 1000 lbs (453 kg). Pump switches must be turned OFF once both LOW PRESSURE lights illuminate. These notes describe conditional requirements that apply regardless of which pilot is flying. The table and notes together provide a complete operational flow for descent and approach.",
+        "type": "table"
+    },
+    {
+        "chapter": "Normal Procedures",
+        "section": "Landing Procedure",
+        "title": "Landing Procedure",
+        "page_number": 45,
+        "csv_path": "tables/normal_procedures/landing_procedure.csv",
+        "description": "This table details the duties of the Pilot Flying (PF) and Pilot Not Flying (PNF) during the Landing Procedure. Some tasks are unique to each role, while several must be performed by both. Shared responsibilities include verifying mode annunciation, verifying proper mode annunciation and setting missed approach altitude at glide slope capture, checking crossing altitude at the final approach fix/outer marker, and monitoring approach progress. Both crew members must also verify FLARE arming at 500 feet AGL, verify FLARE engagement at approximately 50 feet AGL, and ensure the autothrottle retards the thrust levers to idle by touchdown. The table also includes PF- and PNF-specific duties such as flap selection, gear configuration, and checklist execution.",
+        "type": "table"
+    },
+    {
+        "chapter": "Normal Procedures",
+        "section": "Go-Around Procedure",
+        "title": "Go-Around Procedure",
+        "page_number": 46,
+        "csv_path": "tables/normal_procedures/go_around_procedure.csv",
+        "description": "This table details the crew task distribution during the Go-Around Procedure. Tasks are divided between the Pilot Flying (PF) and Pilot Not Flying (PNF). Some actions are specific to each role, such as flap lever positioning for the PNF and go-around thrust management for the PF. Several actions must be performed by both pilots, including verifying mode annunciation, checking flight instrument indications (including MCP speed window blanking), and confirming that the airplane levels off at the selected altitude while maintaining flap maneuvering speed. The table ensures coordinated cockpit workflow during a go-around and missed approach sequence.",
+        "type": "table"
+    },
+    {
+        "chapter": "Normal Procedures",
+        "section": "Landing Roll Procedure",
+        "title": "Landing Roll Procedure",
+        "page_number": 47,
+        "csv_path": "tables/normal_procedures/landing_roll_procedure.csv",
+        "description": "This table presents the Landing Roll Procedure and outlines the responsibilities of the Pilot Flying (PF) and the Pilot Not Flying (PNF). It describes how the PF manages thrust lever reduction, manual aircraft control, reverse thrust application, SPEED BRAKE lever verification, and autobrake disarming as taxi speed is approached. The PNF duties include verifying autothrottle disengagement, calling SPEED BRAKE status, monitoring engine indications, making the '60 KNOTS' callout, and checking REV indication extinguishment. Both pilots must verify proper autobrake operation. The table describes the sequence from touchdown through reduction of reverse thrust and transitioning to taxi speed. The following warning below the table is also part of this procedure: After reverse thrust has been initiated, a full stop landing must be made.",
+        "type": "table"
+    }
+]

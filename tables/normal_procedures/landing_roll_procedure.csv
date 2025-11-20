@@ -1,0 +1,11 @@
+PILOT_FLYING,PILOT_NOT_FLYING
+Ensure thrust levers at idle.,
+"Disengage autopilot and control airplane manually.
+Verify autothrottle disengages automatically.",Verify autothrottle is disengaged.
+Verify SPEED BRAKE lever (ground spoilers) - UP.,"Verify SPEED BRAKE lever UP. Call out “SPEED BRAKES UP.”
+If SPEED BRAKE lever not UP, call “SPEED BRAKES NOT UP.”"
+Verify proper autobrake operation.,Verify proper autobrake operation.
+"Without delay, raise reverse thrust levers to the interlocks, hold light pressure until release, and then apply reverse thrust as required.","Monitor engine instruments and announce any engine limit being approached, exceeded or any other abnormalities."
+"At 60 knots, reduce reverse thrust to be at IDLE reverse when reaching taxi speed.",Call “60 KNOTS”
+"Approaching taxi speed, slowly move the reverse thrust levers to the full down position.",Verify REV indication extinguished.
+"Prior to taxi speed, disarm the autobrake and continue manual braking as required.",

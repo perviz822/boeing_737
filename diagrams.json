@@ -1,0 +1,345 @@
+[
+  {
+    "chapter": "Normal Procedures",
+    "section": "Panel Scan Diagram",
+    "title": "Panel Scan Diagram",
+    "type": "diagram",
+    "page_number": 6,
+    "description": "This diagram defines the cockpit panel scan responsibilities for the Captain and First Officer when the aircraft is stationary and not moving under its own power. The Captain’s panels are shaded dark grey (left side of the cockpit), and the First Officer’s panels are shaded light grey (right side). The diagram assigns numbered areas (1–9), each representing a major cockpit panel group.\n\nElement 1: Side Panels. Each pilot scans their respective outboard side panel. The Captain is responsible for the left side panel, and the First Officer for the right. These panels typically contain oxygen controls, personal lighting, audio selectors, small system switches, and side-console equipment.\n\nElement 2: Forward Overhead Panel. This panel is divided into left, right, and center sections. The Captain scans the left overhead systems (left electrical, left fuel pumps, left hydraulics, left air/bleed, left anti-ice). The First Officer scans the corresponding right-side systems. The center overhead area is shared, with each pilot responsible for their respective half of the central systems.\n\nElement 3: Aft Overhead Panel. Also divided left/right. The Captain scans the left portion, and the First Officer scans the right. This area contains supplemental system controls, circuiting, lighting panels, and maintenance-related overhead switches.\n\nElement 4: Main Instrument Panels. Each pilot scans their own primary flight and navigation displays. The Captain monitors the left PFD and ND along with the associated EFIS controls, while the First Officer monitors the right PFD and ND and corresponding controls.\n\nElement 5: Central Flight Display Stack. This shared central area includes system displays such as EICAS or ECAM, standby instruments, and shared mode selectors. Both pilots participate in scanning this area according to their duties.\n\nElement 6: Thrust Lever Quadrant (Center Pedestal Mid-Section). The aisle stand begins here. The Captain scans the left side of the quadrant and the First Officer the right. This includes thrust levers, speed-brake lever, flap lever, reverser levers, and other mechanical flight-control items mounted at the center.\n\nElement 7: Upper Aisle Stand / Upper Center Pedestal. This includes communication panels, radio tuning panels, and audio control modules. The Captain is responsible for the left-side communication controls, and the First Officer for the right side.\n\nElement 8: Lower Aisle Stand / Lower Center Pedestal. Contains navigation radios, transponder controls, system panels, and supplemental avionics selectors. The Captain scans the left side, and the First Officer scans the right.\n\nElement 9: Forward Aisle Stand (FMS/CDU Area). Located at the forward-most part of the center pedestal. The Captain is responsible for the left CDU/FMS unit, and the First Officer for the right CDU/FMS. Both verify their own route entries, performance data, and configuration.\n\nOverall, the diagram illustrates the left/right division of cockpit duties and ensures that each pilot scans their assigned portion of the overhead, instrument panels, and aisle stand (center pedestal). It supports queries concerning ground scan flow, cockpit responsibility by position, and which pilot checks the overhead panel or aisle stand."
+}
+,
+{
+    "chapter": "Normal Procedures",
+    "section": "Pilot Flying/Taxiing and Pilot Not Flying/Not Taxiing Areas of Responsibility",
+    "title": "Pilot Flying/Taxiing and Pilot Not Flying/Not Taxiing Areas of Responsibility",
+    "description": "This diagram defines the cockpit panel responsibilities of the Pilot Flying/Taxiing (PF) and the Pilot Not Flying/Not Taxiing (PNF) when the airplane is moving under its own power. Grey-shaded areas represent PF responsibilities, black-shaded areas represent PNF responsibilities, and unshaded areas are operated by the pilot seated on that side. The diagram includes the overhead panel, forward instrument panel, center pedestal, thrust quadrant, and side panels. PF responsibilities include flight control–related displays and controls required for taxiing. PNF responsibilities include system monitoring and configuration tasks across overhead systems such as electrical, hydraulic, fuel, air conditioning, anti-ice, and fire protection. The forward instrument panel shows PF and PNF divisions aligned with their seated positions, with center displays shared based on task requirements. The pedestal highlights PNF tasks such as radio tuning and system adjustments, while PF retains operational control inputs. Side panels remain seat-specific and unshaded. Overall, the diagram establishes how cockpit duties are divided between PF and PNF during taxi and aircraft movement.",
+    "page_number": 7,
+    "type": "diagram"
+},
+
+    {
+        "chapter": "Normal Procedures",
+        "section": "Flight Patterns",
+        "title": "Take off",
+        "description": "The diagram illustrates an aircraft’s takeoff and initial climb procedure from the start of the takeoff roll to passing 3000 feet above ground level (AGL). It presents a left-to-right sequence beginning at the runway threshold and progressing through rotation, flap retraction, acceleration, and climb mode selections. The diagram includes aircraft icons at different flight phases, annotated text, altitude references, and procedural callouts for both single-engine and two-engine conditions.\n\n1. Takeoff Roll (Ground Phase)\n\nThe aircraft icon is shown accelerating along the runway centerline.\n\nCallouts beside this phase include:\n\n\"Thrust set\"\n\n\"Manually advance thrust to stabilize\"\n\n\"Press TO/GA\"\n\n\"LNAV armed (as required)\"\n\n\"Takeoff thrust by 60 knots\"\n\n2. V1 and VR\n\nA marker on the runway indicates V1.\n\nSlightly further along the runway is VR (\"Rotate\").\n\nAt VR, an aircraft icon shows the nose lifting for rotation.\n\n3. Initial Climb and Positive Rate\n\nAfter liftoff, an aircraft icon is depicted climbing away from the runway.\n\nAssociated procedure notes:\n\n\"Positive rate of climb\"\n\n\"Gear up\"\n\n\"V2+15 to 25 knots (2 engine)\"\n\n\"V2 to V2+20 knots (1 engine)\"\n\n4. 400 Feet AGL\n\nA label marks \"At 400 feet AGL.\"\n\nAction: \"Select roll mode.\"\n\n5. Acceleration Height / Flap Retraction Altitude\n\nA horizontal line above the runway marks the typical acceleration height, labeled \"Acceleration height flap retraction altitude (normally 1000 ft).\"\n\nProcedure items:\n\n\"Set/verify climb thrust (2 engine)\"\n\n\"Select flaps up maneuvering speed\"\n\n\"Retract flaps on schedule\"\n\n6. Climb Toward 3000 Feet\n\nThe climb path continues upward from the acceleration height toward a point labeled \"3000 feet.\"\n\nNear this segment:\n\n\"One or 2 engine climb speed\"\n\n\"VNAV engaged (as installed)\"\n\n7. Flaps Up (Post-Climb-Thrust Configuration)\n\nAfter the 3000-foot segment, the diagram indicates the aircraft should be in clean configuration:\n\n\"Flaps up\"\n\n\"Maintain flaps up maneuvering speed or select LVL CHG (1 engine)\"\n\n\"Maintain flaps up maneuvering speed (2 engine)\"\n\n\"Set max continuous thrust (1 engine)\"\n\n\"Non-normal checklist (if required)\"\n\n\"After Takeoff checklist\"",
+        "page_number": 51,
+        "type": "diagram"
+    },
+    {
+        "chapter": "Normal Procedures",
+        "section": "Flight Patterns",
+        "title": "ILS Approach",
+        "description": "The diagram illustrates an aircraft’s progression through an Instrument Landing System (ILS) approach, from vectoring and intercept to glideslope capture, descent, flare, touchdown, and missed approach procedures. It includes multiple aircraft icons along a descending flight path, annotated with procedural steps, configuration changes, and autopilot mode selections.\n\n1. Radar/ATC Vectors Phase\n\nLocated at the left side of the diagram, an aircraft is shown being vectored onto the localizer.\n\nNotes:\n\n\"On RADAR vectors\"\n\n\"HDG SEL\"\n\n\"Appropriate pitch mode\"\n\n\"LNAV or appropriate roll mode\"\n\n\"VNAV or appropriate pitch mode\"\n\n2. Approaching Intercept Heading\n\nAircraft is aligned toward the localizer intercept angle.\n\nConfiguration:\n\n\"Flaps 5\"\n\n3. Localizer Capture\n\nAs the aircraft intercepts the localizer (final approach course):\n\n\"Final approach course heading\"\n\n\"Intercept heading\"\n\n\"ILS tuned & identified\"\n\n\"LOC & G/S pointers displayed\"\n\n\"Select APP\"\n\n\"Second CMD (Dual channel)\"\n\n4. Glideslope Alive\n\nAt the point where the glideslope indication becomes active:\n\n\"Gear down\"\n\n\"Flaps 15 (final flap for 1 engine)\"\n\n\"Arm speedbrake\"\n\n\"Landing checklist (to flaps for 2 engine)\"\n\n5. Fix (LOM, MKR, DME)\n\nThe diagram labels a fix along the approach path.\n\n\"Verify crossing altitude\"\n\n6. Glideslope Intercept\n\nAt the point where the aircraft starts descending on the glideslope:\n\n\"Landing flaps (2 engine)\"\n\n\"Set missed approach altitude\"\n\n\"Complete Landing checklist (2 engine)\"\n\nAircraft icon begins descent along the glideslope.\n\n7. 500 Feet AGL\n\n\"Check FLARE armed (Dual channel)\"\n\n8. Minimum Single Channel Autopilot Use Height\n\nNear the lower part of the approach path, another aircraft icon descends:\n\n\"See limitations chapter\"\n\n\"Disengage A/P (Autopilot)\"\n\n9. Touchdown\n\nAt the runway threshold, the aircraft icon reaches the landing point:\n\n\"Touchdown\"\n\n\"Disengage A/P (Dual channel)\"\n\n10. Missed Approach Path\n\nA separate curved path depicts the go-around sequence beginning at the approach minimums:\n\n\"Push TO/GA switch\"\n\n\"Go-around thrust\"\n\n\"Go-around altitude\"\n\n\"Flaps 15 (flaps 1, one engine)\"\n\n\"Positive rate of climb, gear up\"\n\n\"Retract flaps on schedule\"\n\n\"Select flaps up maneuvering speed\"\n\n\"After Takeoff checklist\"",
+        "page_number": 52,
+        "type": "diagram"
+    },
+    {
+        "chapter": "Normal Procedures",
+        "section": "Flight Patterns",
+        "page_number": 55,
+        "title": "Circling Approach",
+        "description": "This diagram illustrates the full sequence of a circling approach from the Minimum Descent Altitude (MDA) to base turn, landing alignment, and missed approach. It shows the aircraft flying level at MDA with gear and flaps set according to engine-out requirements, then beginning a descending base turn with landing flaps and checklist completion. The aircraft then aligns with the landing profile, where autopilot and autothrottle are disengaged. A separate missed approach path shows a climbing turn toward the landing runway, executed in the shortest direction, with the aircraft following the standard missed-approach procedure.",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Normal Procedures",
+        "section": "Flight Patterns",
+        "page_number": 56,
+        "title": "Visual Traffic Pattern",
+        "description": "This diagram shows a complete visual traffic pattern, beginning with entry into the downwind leg using Flaps 5. Prior to turning base, the aircraft extends the gear, transitions to Flaps 15 for a one-engine scenario, arms the speedbrake, and begins descent. The base leg includes selecting landing flaps and completing the landing checklist. On final, the aircraft becomes stabilized between 700 and 500 feet AGL with proper spacing of 2–2.5 NM. A go-around path is also shown, beginning with TO/GA selection, applying go-around thrust and attitude, setting Flaps 15 (or Flaps 1 for one engine), achieving positive rate for gear retraction, and retracting flaps on schedule before completing the After Takeoff checklist.",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Normal Procedures",
+        "section": "Flight Patterns",
+        "page_number": 54,
+        "title": "Instrument Approach Using V/S",
+        "description": "This diagram depicts a non-precision instrument approach flown using Vertical Speed mode. The aircraft begins under radar vectors using HDG SEL and appropriate pitch and roll modes, then transitions to intercept heading with Flaps 5. At the inbound point (1.5 NM), the aircraft lowers the gear, selects Flaps 15 or landing flaps, arms the speedbrake, sets the MDA, and passes the FAF. The aircraft descends to MDA in V/S, completing the landing checklist. Approaching MDA, the missed approach altitude is set in the MCP. At MDA, the aircraft levels, engages LVL mode, and aligns visually by disconnecting autopilot and autothrottle. A missed approach path is shown, beginning with TO/GA, Flaps 15, go-around thrust and attitude, positive-rate gear retraction, selection of roll mode above 400 feet, flap retraction at schedule, and completion of the After Takeoff checklist. The landing continuation path includes flap retraction on schedule, CLB/CON thrust selection, navigation mode selection, and route/altitude verification.",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 – Equipment, Doors, Windows",
+        "section": "Fire Extinguisher (Halon 1211)",
+        "page_number": 132,
+        "title": "BCF Fire Extinguisher (Halon 1211)",
+        "description": "Diagram showing Halon 1211 fire extinguisher with labeled components including discharge nozzle, lever, ring safety pin, pressure gauge, and handle. Used for electrical, fuel, and grease fires.Halon (BCF) fire extinguishers contain a liquefied gas agent under pressure. Thepressure indicator shows an acceptable pressure range, a recharge range, and anovercharged  range.  A  safety  pin  with  a  pull  ring  prevents  accidental  triggermovement. When released the liquefied gas agent vaporizes and extinguishes thefire. The extinguisher is effective on all types of fires, but primarily on electricalfuel and grease fires",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 – Equipment, Doors, Windows",
+        "section": "Fire Extinguisher",
+        "page_number": 145,
+        "title": "Water Fire Extinguisher",
+        "description": "Illustration of water fire extinguisher with trigger, safety wire, discharge nozzle, and handle. Intended for Class A fires involving combustible materials.Water fire extinguishers contain a solution of water mixed with antifreeze. Thecontainer  is  pressurized  by  a  CO2  cartridge  when  the  extinguisher  handle  isrotated fully clockwise. The extinguisher should be used on fabric, paper or woodfires only.To use the water fire extinguisher:remove from stowage rotate handle fully clockwise aim at base of fire and press trigger. CAUTION: Do not use on electrical or grease type fires ",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 – Equipment, Doors, Windows",
+        "section": "Halon (BCF) Fire Extinguishers",
+        "page_number": 145,
+        "title": "Halon (BCF) Fire Extinguishers",
+        "description": "Text and diagram describing Halon BCF extinguishers containing pressurized liquefied gas, with pressure indicator and safety pin. Effective on electrical, fuel, and grease fires.",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 – Equipment, Doors, Windows",
+        "section": "Passenger Portable Oxygen Schematic",
+        "page_number": 144,
+        "title": "Passenger Portable Oxygen Schematic",
+        "description": "Diagram of portable oxygen bottle including constant flow outlets, regulator, pressure gauge, on-off valve, oxygen cylinder, and mask usage depiction.First  aid  and  supplemental  portable  oxygen  cylinders  are  installed  at  suitablelocations in the passenger cabin. The cylinders are fitted with a pressure gage,pressure regulator and on–off valve. The cylinders are pressurized to 1800 psi. Atthis pressure and a temperature of 70 degrees Fahrenheit, (21 degrees Celsius) thecylinders  have  a  capacity  of  4.25  cubic  feet  (120  liters)  of  free  oxygen.  Twocontinuous flow outlets are provided on each cylinder, one regulates flow at twoliters per minute for walk–around; the second outlet provides flow at four liters perminute. The four–liter flow is used for first aid.Duration can be determined by dividing capacity by outflow (120 liters divided by4 liters/minute = 30 minutes)",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 – Equipment, Doors, Windows",
+        "section": "PSU Oxygen Mask Compartment",
+        "page_number": 143,
+        "title": "PSU Oxygen Mask Compartment",
+        "description": "Schematic of passenger service unit oxygen mask system showing chemical oxygen generator, release firing pin, generator lanyard, mask lanyard, mask door, flow indicator, hose, reservoir bag, and mask.",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 – Equipment, Doors, Windows",
+        "section": "Mask Donning",
+        "page_number": 142,
+        "title": "Mask Donning",
+        "description": "Four-step illustration of crew oxygen mask donning procedure including pulling mask container, deploying mask, fitting over face, and securing for use.",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 – Equipment, Doors, Windows",
+        "section": "Oxygen System Schematic",
+        "page_number": 140,
+        "title": "Oxygen System Schematic",
+        "description": "Overview diagram of aircraft oxygen system including crew oxygen cylinder, pressure reducer, thermal discharge port, passenger service units, masks, chemical oxygen generators, barometric pressure switch, and control indicators.",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 – Equipment, Doors, Windows",
+        "section": "Emergency Exit Lighting",
+        "page_number": 138,
+        "title": "Emergency Exit Lighting",
+        "description": "Diagram showing interior and exterior emergency lighting, including exit locator signs, photoluminescent strip lighting, aisle lights, escape slide lighting, and emergency exit signs throughout the aircraft.",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 – Equipment, Doors, Windows",
+        "section": "Exterior Lighting Locations",
+        "page_number": 132,
+        "title": "Exterior Lighting Locations",
+        "description": "Diagram of aircraft exterior lighting layout showing taxi lights, wing illumination lights, retractable and fixed landing lights, runway turnoff lights, anti-collision lights, strobe lights, position lights, and logo lights.",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 - Equipment, Doors, Windows",
+        "section": "Lavatory Controls",
+        "page_number": 129,
+        "title": "Lavatory Controls",
+        "description": "Diagram showing lavatory sink cabinet controls including: Water Heater Switch (activates heater), Water Heater Light (illuminated when operating), Temperature Control Switch, Water Supply Selector Valve (SUPPLY ON, FAUCET ONLY, OFF, TOILET ONLY), and Drain Valve location in forward lavatory.",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 - Equipment, Doors, Windows",
+        "section": "Water System Controls",
+        "page_number": 128,
+        "title": "Water System Controls",
+        "description": "Diagram illustrating the potable water system including Water Quantity Indicator, Water System Service Panel, Fill Fitting, Fill and Overflow Valve Handle (open for filling or gravity draining), Tank Drain Valve Handle (open to drain), and Access Panel interlock conditions. Can not be closed unless the Fill and Overflow Valce and Tank Drain Valve Handles are in the closed position",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 - Equipment, Doors, Windows",
+        "section": "Forward Airstairs Interior and Exterior Controls",
+        "page_number": 126,
+        "title": "Forward Airstairs Interior and Exterior Controls",
+        "description": "Includes diagrams of forward airstair control panels: LIGHTS Switch (AUTO or ON), Normal Control Switches (EXTEND/RETRACT), STANDBY Control Switch (manual extend/retract under battery power), CAUTION: Use of standby bypasses all safety circuits. Airstair handrail extensions must be stowed or substantial damage could result. STAIRS Operating light (amber, in transit), AIRSTAIRS Control Switch, and POWER Switch (NORMAL or STANDBY).",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 - Equipment, Doors, Windows",
+        "section": "Oxygen Mask Panel",
+        "page_number": 124,
+        "title": "Oxygen Mask Panel",
+        "description": "Panel showing Oxygen Flow Indicator (yellow cross appears when oxygen flows), RESET/TEST Slide Lever (tests regulator, retracts OXY ON flag and shuts off microphone when stowed), and Inflation Levers (release mask from stowage and activate OXY ON flag when doors open).",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 - Equipment, Doors, Windows",
+        "section": "Oxygen Panel",
+        "page_number": 123,
+        "title": "Oxygen Panel",
+        "description": "Diagram of aft overhead oxygen panel with Flight Crew Oxygen Pressure Indicator and Passenger Oxygen (PASS OXYGEN) Switch. NORMAL position triggers automatic mask drop at 14,000 ft cabin altitude; ON forces mask deployment if automatic system fails. Passenger Oxygen On Light illuminates amber when masks have deployed.",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 - Equipment, Doors, Windows",
+        "section": "Passenger Entry/Galley Service Doors",
+        "page_number": 123,
+        "title": "Passenger Entry/Galley Service Doors",
+        "description": "Diagram labeling door components including control handle, assist handle, slide pressure gauge viewer, stowage hooks, floor brackets, girt bar, slide compartment, and instruction placard for standard 737 passenger/galley doors.",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 - Equipment, Doors, Windows",
+        "section": "Exterior Door Annunciations Lights",
+        "page_number": 122,
+        "title": "Exterior Door Annunciations",
+        "description": "Diagram showing overhead panel and aircraft exterior labels indicating door locations. Exterior Door Annunciations illuminate amber when a related door is not closed and locked.",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 - Equipment, Doors, Windows",
+        "section": "Overwing Exit Annunciations",
+        "page_number": 122,
+        "title": "Overwing Exit Annunciations",
+        "description": "Diagram showing typical 737-800/900 door and overwing exit locations. Overwing Exit annunciation illuminates amber when the related exit is not closed/locked or flight lock fails to engage.",
+        "type": "diagram"
+    },
+
+  
+{
+    "chapter": "Airplane General, Emergency Chapter 1 - Equipment, Doors, Windows",
+    "section": "Passenger Cabin",
+    "page_number": 115,
+    "title": "Passenger Cabin Emergency Lights Switch",
+    "description": "Diagram showing the Passenger Cabin Emergency Lights Switch on the AFT Attendant Panel. The diagram contains a labeled pointer (1) indicating the switch. The switch graphic includes the text “EMERGENCY EXIT LIGHTS”. Below the diagram, the text states: “Passenger Cabin Emergency Lights Switch (guarded). On – illuminates all emergency lights and bypasses flight deck control.”",
+    "type": "diagram"
+},
+
+{
+    "chapter": "Airplane General, Emergency Chapter 1 - Equipment, Doors, Windows",
+    "section": "Flight Deck Access System Switch",
+    "page_number": 117,
+    "title": "Flight Deck Access System Switch",
+    "description": "Diagram of the flight deck access system switch on the flight deck side door post. Text inside diagram: “FLIGHT DECK ACCESS SYSTEM”, “OFF”, and “NORM”. Label 1 points to the switch. Associated text: “Flight Deck Access System Switch. OFF - removes electrical power from door lock. NORM (Normal) - flight deck access system configured for flight.”",
+    "type": "diagram"
+}
+,
+
+
+{
+    "chapter": "Airplane General, Emergency Chapter 1 - Equipment, Doors, Windows",
+    "section": "Flight Deck Door Lock Panel",
+    "page_number": 118,
+    "title": "Flight Deck Door Lock Panel",
+    "description": "Diagram of the flight deck door lock panel on the aisle stand. Text inside diagram: “FLT DK DOOR”, “LOCK FAIL”, “AUTO UNLNK”, selector positions: UNLKD, AUTO, DENY. Labeled items: 1 = LOCK FAIL Light, 2 = AUTO Unlock (UNLK) Light, 3 = Flight Deck (FLT DK) Door Lock Selector. LOCK FAIL Light: “Illuminated (amber) - Flight Deck Door Lock selector in AUTO and door lock has failed or Flight Deck Access System switch is OFF.” AUTO UNLK Light: “Illuminated (amber) - correct emergency access code entered in keypad. AUTO UNLK light flashes and continuous chime sounds before timer expires and door unlocks.” Door Lock Selector: “UNLKD - door unlocked while selector in UNLKD. AUTO - door locked; allows automatic unlock after emergency access code entry unless crew intervenes. DENY - rejects keypad entry request and prevents further emergency access code entry for a time period.”",
+    "type": "diagram"
+}
+,
+
+{
+    "chapter": "Airplane General, Emergency Chapter 1 - Equipment, Doors, Windows",
+    "section": "Flight Deck Security Door",
+    "page_number": 116,
+    "title": "New Flight Deck Security Door Components",
+    "description": "Diagram of the new flight deck security door. Labels: 1 = Deadbolt, 2 = Release Pins, 3 = Decompression Panel. Release Pins text: “Pull pins inward - manually separates decompression panel from a jammed door to allow panel opening and egress.” Decompression Panel text: “Provides emergency egress path and automatically opens during cabin decompression.” Diagram includes door orientation with AFT arrow.",
+    "type": "diagram"
+},
+{
+    
+    "chapter": "Airplane General, Emergency Chapter 1 - Equipment, Doors, Windows",
+    "section": "Flight Deck Emergency Access Panel",
+    "page_number": 117,
+    "title": "Flight Deck Emergency Access Panel",
+    "description": "Diagram of the emergency access panel on the passenger side door post. Text inside diagram: keypad buttons labeled 1, 2, 3, 4, 5, ENT; three indicator lights. Labeled items: 1 = Keypad, 2 = Access Lights. Keypad function: “Push - enters 3 to 8 digit emergency numeric access code. Entry of correct emergency access code sounds flight deck chime.” Access Lights: “Illuminated (red) - door locked. Illuminated (amber) - correct emergency access code entered. Illuminated (green) - door unlocked.”",
+    "type": "diagram"
+}
+
+,
+{
+    "chapter": "Airplane General, Emergency Chapter 1 - Equipment, Doors, Windows",
+    "section": "Cabin Door",
+    "page_number": 115,
+    "title": "Cabin Door (CAB DOOR) Lock Switch",
+    "description": "Diagram showing the Cabin Door (CAB DOOR) Lock Switch on the aisle stand. The diagram includes a labeled pointer (1) pointing to a panel labeled “CAB DOOR” containing the message “CAB DOOR UNLOCKED”. Below the diagram, the text explains: “Cabin Door (CAB DOOR) Lock Switch. Illuminated (amber) – cabin door is unlocked. Push – with DC power available, locks cabin door.”",
+    "type": "diagram"
+},
+
+
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 Equipment, Doors, Windows",
+        "section": "Emergency Lighting and Passenger Signs – Flight Deck",
+        "page_number": 114,
+        "title": "Emergency and Passenger Signs Controls Flight Deck",
+        "description": "Diagram labels: 'EMER EXIT LIGHTS', positions OFF, ARMED, ON; switches labeled 'NO SMOKING' with OFF, AUTO, ON; 'FASTEN BELTS' switch with OFF, AUTO, ON. Description: Emergency (EMER) EXIT LIGHTS Switch — OFF prevents system operation if airplane electrical power fails; ARMED automatically illuminates all emergency lights if DC bus No.1 fails or AC power is lost; ON illuminates all emergency lights. EMER EXIT LIGHTS NOT ARMED Light — amber when switch not in ARMED. NO SMOKING switch — OFF extinguishes signs, AUTO controls illumination based on airplane configuration, ON illuminates signs. SEAT BELTS switch — OFF extinguishes signs, AUTO controls signs automatically, ON illuminates signs.",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 Equipment, Doors, Windows",
+        "section": "Miscellaneous Exterior Lights",
+        "page_number": 113,
+        "title": " Miscellaneous Exterior Lights Controls",
+        "description": "Diagram labels: 'LOGO', 'POSITION', 'ANTI COLLISION', 'WING', 'WHEEL WELL', with ON/OFF/STEADY/STROBE indicators. Description: LOGO Light Switch — OFF extinguishes vertical fin logo lights; ON illuminates them. POSITION Light Switch — STROBE & STEADY illuminates wingtip and tail strobes; OFF extinguishes all; STEADY illuminates steady position lights only. WHEEL WELL Light Switch — OFF extinguishes wheel well lights; ON illuminates them. WING Illumination Switch — OFF extinguishes wing leading edge lights; ON illuminates them. ANTI-COLLISION Light Switch — OFF extinguishes red beacon lights; ON illuminates them.",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 Equipment, Doors, Windows",
+        "section": "Landing, Runway Turnoff and Taxi Lights",
+        "page_number": 112,
+        "title": "Exterior Landing and Taxi Light Controls",
+        "description": "Diagram labels: 'RETRACT', 'EXTEND', 'LANDING L ON R RETRACTABLE', 'LANDING L ON R FIXED', 'RUNWAY TURNOFF L/R', 'TAXI'. Description: 1.RETRACTABLE LANDING Light Switch — RETRACT retracts and extinguishes lights; EXTEND extends and extinguishes; ON extends and illuminates. 2.FIXED LANDING Light Switch — OFF extinguishes fixed landing lights; ON illuminates. 3.RUNWAY TURNOFF Light Switch — OFF extinguishes leading-edge turnoff lights; ON illuminates. 4.TAXI Light Switch — OFF extinguishes nose wheel taxi light; ON illuminates it.",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 Equipment, Doors, Windows",
+        "section": "Oxygen Mask and Regulator",
+        "page_number": 125,
+        "title": "Oxygen Mask and Regulator",
+        "description": "Diagram Text (Crewmember Station):\n• NORMAL/100% switch labeled N and 100% PUSH\n• EMERGENCY PRESS TO TEST selector\n• Harness (shown inflated)\n• Mask\n• Microphone\n• Regulator\n\nSystem Description:\n1. NORMAL/100% Switch\n   - N (normal): supplies air/oxygen mixture on demand (ratio depends on cabin altitude).\n   - 100%: supplies 100% oxygen on demand.\n\n2. Oxygen Mask EMERGENCY/Test Selector (rotary)\n   - Rotate: supplies 100% oxygen under positive pressure at all cabin altitudes.\n   - PRESS TO TEST: tests positive pressure supply to regulator.\n\n3. Smoke Vent Valve Selector\n   - Up: vent valve closed.\n   - Down: vent valve open, allowing oxygen flow to smoke goggles.",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 Equipment, Doors, Windows",
+        "section": "Master Lights Test and Dim Switch",
+        "page_number": 111,
+        "title": "Master Light Test and Dimmer",
+        "description": "Diagram labels: 'LIGHTS', 'TEST', 'BRT', 'DIM'. Description: TEST — illuminates all system lights on forward and aft overhead panels and selected instrument panel lights to full brightness. BRT — sets all system lights to full brightness. DIM — sets system lights to low brightness, including Captain and First Officer panels.",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 Equipment, Doors, Windows",
+        "section": "Dome Light Control",
+        "page_number": 110,
+        "title": "Overhead Dome Light Control",
+        "description": "Diagram labels: 'DOME WHITE', 'DIM', 'OFF', 'BRIGHT'. Description: DIM sets dome lights to low brightness; OFF extinguishes dome lights; BRIGHT sets them to full brightness.",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 Equipment, Doors, Windows",
+        "section": "Overhead/Circuit Breaker Panel Light Controls",
+        "page_number": 110,
+        "title": "Circuit Breaker and Panel Lighting",
+        "description": "Diagram labels: 'CIRCUIT BREAKER', 'PANEL', 'BRIGHT', 'OFF'. Description: CIRCUIT BREAKER Light Control — controls brightness of P-6 and P-18 circuit breaker panels. PANEL Light Control — controls brightness of forward and aft overhead panel lights.",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 Equipment, Doors, Windows",
+        "section": "Flood and Aft Electronics Lights Controls",
+        "page_number": 109,
+        "title": "Flood and Electronics Panel Lighting",
+        "description": "Diagram labels: 'FLOOD', 'PANEL', 'BRIGHT', 'OFF'. Description: FLOOD Light Control — adjusts brightness of overhead spotlight directed at the thrust lever quadrant. PANEL Light Control — adjusts brightness of forward and aft electronic control panel lighting.",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 Equipment, Doors, Windows",
+        "section": "Background and AFDS Flood Light Control",
+        "page_number": 109,
+        "title": "Background and AFDS Lighting",
+        "description": "Diagram labels: 'BACKGROUND', 'AFDS FLOOD', 'BRIGHT', 'OFF'. Description: BACKGROUND Light Control — controls incandescent lighting brightness for Captain, First Officer, and center panel. AFDS FLOOD Light Control — controls brightness of lighting directed at the AFDS panel.",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 Equipment, Doors, Windows",
+        "section": "Main Panel Lighting",
+        "page_number": 108,
+        "title": "Main Instrument Panel Lighting",
+        "description": "Diagram labels: 'MAIN PANEL', 'BRIGHT', 'OFF'. Description: MAIN PANEL Light Control — adjusts brightness of Captain's panel, First Officer's panel, center instrument panel, and AFDS displays depending on side of aircraft.",
+        "type": "diagram"
+    },
+    {
+        "chapter": "Airplane General, Emergency Chapter 1 Equipment, Doors, Windows",
+        "section": "Map and Chart Light Controls",
+        "page_number": 108,
+        "title": "Map and Chart Lighting",
+        "description": "Diagram labels: 'MAP BRIGHT', 'INOP'. Description: MAP Light Control — adjusts brightness of Captain/First Officer map lights. CHART Light Control — adjusts brightness of Captain/First Officer chart lights.",
+        "type": "diagram"
+    }
+]

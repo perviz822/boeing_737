@@ -1,0 +1,16 @@
+PILOT_FLYING,PILOT_NOT_FLYING
+"When on localizer intercept heading, verify ILS tuned and identified, LOC and G/S pointer displayed, arm APP mode and engage second autopilot.",Set transponder mode selector to desired TCAS mode.
+Verify mode annunciation.,Verify mode annunciation.
+At localizer capture verify proper mode annunciation and set appropriate heading.,Verify proper mode annunciation.
+"At glide slope 'alive', call 'GEAR DOWN', 'FLAPS 15.' Arm speed brake and check green light illuminated. Call 'LANDING CHECKLIST DOWN TO FLAPS.'","[Without automatic ignition] Position landing gear lever DN, FLAP lever to the 15 detent. Position engine start switches to CONT. Check RECALL.
+
+[Automatic ignition] Position landing gear lever DN, FLAP lever to the 15 detent. Check RECALL."
+Accomplish the LANDING checklist down to flaps. State 'HOLDING AT FLAPS.',Accomplish the LANDING checklist down to flaps. State 'HOLDING AT FLAPS.'
+"At glide slope capture, verify proper mode annunciation, check N1 reference bug at the go–around limit and set missed approach altitude.","At glide slope capture, verify proper mode annunciation, check N1 reference bug at the go–around limit and set missed approach altitude."
+Call 'FLAPS __' as required for landing. Set MCP speed selector at VREF + 5 knots.,Position FLAP lever as directed.
+"At final approach fix/OM, verify crossing altitude.","At final approach fix/OM, verify crossing altitude."
+Call 'COMPLETE THE LANDING CHECKLIST.',Complete the LANDING checklist.
+Monitor approach progress and guard the controls.,Monitor approach progress and guard the controls.
+"At 500 feet AGL, verify FLARE is armed.","At 500 feet AGL, verify FLARE is armed."
+"At approximately 50 feet AGL, verify FLARE is engaged.","At approximately 50 feet AGL, verify FLARE is engaged."
+Ensure the autothrottle retards the thrust levers to idle by touchdown.,Ensure the autothrottle retards the thrust levers to idle by touchdown.

@@ -1,0 +1,11 @@
+PILOT_FLYING,PILOT_NOT_FLYING,BOTH
+"Push TO/GA switch. Call 'FLAPS 15.' If full GA thrust is required, push TO/GA switch again after reduced GA thrust is established.",Monitor N1 indication. Position FLAP lever to 15 and monitor flap retraction.,
+Confirm rotation to go‑around attitude and monitor autopilot.,,
+Verify mode annunciation.,Verify mode annunciation.,Both must verify mode annunciation.
+"When positive rate of climb is indicated, call 'GEAR UP' and monitor acceleration.",Verify positive rate of climb. Position landing gear lever UP.,
+Check flight instrument indications (MCP speed window blanks).,Check flight instrument indications (MCP speed window blanks).,Both must check flight instrument indications.
+Call 'TUNE RADIOS FOR MISSED APPROACH.',Tune radios as directed.,
+"Above 400 feet, select appropriate roll mode and verify proper mode annunciation.",Observe mode annunciation.,
+Retract flaps on flap speed schedule.,Position FLAP lever as directed and monitor flaps and slats retraction.,
+Verify airplane levels off at selected altitude and maintains flap maneuvering speed.,Verify airplane levels off at selected altitude and maintains flap maneuvering speed.,Both verify airplane levels off at selected altitude and maintains flap maneuvering speed.
+Call 'AFTER TAKEOFF CHECKLIST.',Accomplish the AFTER TAKEOFF checklist.,

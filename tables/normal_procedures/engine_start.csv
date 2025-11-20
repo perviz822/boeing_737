@@ -1,0 +1,15 @@
+actor,captain_action,first_officer_action
+CAPTAIN,"Announce engine start sequence. Normal starting sequence is 2, 1.",
+CAPTAIN,Call 'STARTING ENGINE No. ___.' Position ENGINE START switch to GRD.,
+BOTH,Verify increase in N2 RPM.,
+CAPTAIN,Acknowledge first officer’s report.,
+FIRST_OFFICER,,Verify increase in oil pressure by idle; call 'OIL PRESSURE RISING'.
+CAPTAIN,Position engine start lever to IDLE detent when N1 rotation is observed and N2 reaches 25% or max motoring (≥20% N2).,
+BOTH,Verify fuel flow and EGT indication.,
+CAPTAIN,At 56% N2: ensure START switch moves to OFF (no auto ignition) or AUTO (auto ignition).,
+FIRST_OFFICER,,Verify START VALVE OPEN extinguishes and report 'STARTER CUTOUT.'
+BOTH,"Monitor N1, N2, EGT, fuel flow, oil pressure until engine stabilizes at idle.",
+CAPTAIN,"[Without automatic ignition]At 56% N2 RPM check ENGINESTART switch moves to OFF; if not,position start switch to OFF."
+FIRST_OFFICER,,"[Without automatic ignition]At 56% N2 RPM check ENGINESTART switch moves to OFF; if not,position start switch to OFF."
+CAPTAIN,"[Automatic ignition]At 56% N2 RPM check ENGINESTART switch moves to AUTO; if not,position start switch to AUTO."
+FIRST_OFFICER,,[Automatic ignition]Verify START VALVE OPEN alertextinguishes as the ENGINE STARTswitch moves to AUTO and report“STARTER CUTOUT.”

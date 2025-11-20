@@ -1,0 +1,19 @@
+PILOT_FLYING,PILOT_NOT_FLYING
+"Maintain a minimum of V2 + 15 knots during initial climb. At light gross weight a higher speed (up to V2 + 25) may be selected, to synchronize F/D pitch command and avoid objectionable body attitude.",Monitor engine instruments and cross-check flight progress.
+"Above 400 feet, call for appropriate roll mode, if required. Verify proper mode annunciation.",Select/verify roll mode. Verify proper mode annunciation.
+"[Without auto T/O thrust reduction]
+Above 1,000 feet, call for N1 and flaps up maneuvering speed. Verify flight and thrust mode annunciations.
+
+[Auto T/O thrust reduction]
+Above 1,000 feet, call for flaps up maneuvering speed. Verify flight and thrust mode annunciations at thrust reduction altitude.","[Without auto T/O thrust reduction]
+Select N1 and set flaps up maneuvering speed.
+
+[Auto T/O thrust reduction]
+Set flaps up maneuvering speed.
+Verify climb thrust is set.
+Verify proper mode annunciation."
+"When above minimum altitude for autopilot engagement, engage A/P.
+Verify flight mode annunciation.",Verify autopilot engaged.
+Retract flaps on takeoff flap retraction speed schedule.,Position FLAP lever as directed and monitor flaps and slats retraction.
+Call 'AFTER TAKEOFF CHECKLIST' when flaps are up.,"Position landing gear lever OFF, APU and engine start switches as required. Verify air conditioning and pressurization operating normally. Accomplish the AFTER TAKEOFF checklist."
+"Above 3,000 feet AGL, engage VNAV or select normal climb speed and verify annunciation.",Verify proper mode annunciation.

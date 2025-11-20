@@ -1,0 +1,13 @@
+action,pilot_flying,pilot_not_flying,both
+Advance initial thrust,Advance thrust levers to approximately 40% N1.,,
+Observe engine instruments,Observe engine instruments stabilized and normal.,Observe engine instruments stabilized and normal.,Observe engine instruments stabilized and normal.
+Set takeoff thrust,Push either TO/GA switch to advance the thrust levers to takeoff N1.,,
+Verify thrust lever movement,,Ensure thrust levers advance to takeoff N1. Observe mode annunciation. Note: In strong headwinds thrust levers may not reach full N1; manually advance as required.,
+Verify mode annunciation,Verify mode annunciation.,,
+Takeoff thrust hand placement,Note: Captain’s hand must remain on thrust levers until V1.,Note: Captain’s hand must remain on thrust levers until V1.,
+Directional control and pressures,Hold light forward pressure on control column; maintain directional control.,Monitor engine instruments. Verify oil pressure is not in amber band.,
+80-knot check,Verify 80 knots.,Call '80 KNOTS.' Verify A/T annunciation changes to THR HLD by 84 knots.,
+V1 / VR procedure,"Monitor airspeed, noting V1, and rotate smoothly at VR.",[Automatic V1 callout] Confirm automatic V1 callout or call 'V1'. At VR call 'ROTATE'. Monitor flight instruments.,
+Positive rate of climb,Call 'GEAR UP' and continue rotation to takeoff pitch attitude.,Verify positive rate of climb. Position landing gear lever UP.,
+Flight instruments,Check flight instrument indications.,Check flight instrument indications.,
+GEAR UP call,"When a positive rate of climb isindicated, call “GEAR UP” andcontinue rotation to takeoff pitchattitude."
