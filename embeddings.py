@@ -28,7 +28,7 @@ def load_embeddings(env=None):
 
     embeddings = HuggingFaceEmbeddings(
         model_name="sentence-transformers/all-mpnet-base-v2",
-        model_kwargs={"device": "cpu"}  # or "mps" on Apple Silicon
+        model_kwargs={"device": "cpu"}  
     )
 
     print(f"✔ Embedding model will be stored at: {model_dir}")

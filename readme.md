@@ -1,3 +1,12 @@
+# Table of Contents:
+
+1. Overview
+2. Preprocessing before chunking
+3. Summary of the embedding model
+4. Explanation of the main files
+5. Challanges and solutions
+6. How to run the app
+
 # Overview
 
 This RAG pipeline answers user questions by retrieving and ranking the most relevant chunks from the Boeing 737 manual. The process combines semantic similarity with a custom title-based scoring method to improve accuracy.
@@ -92,20 +101,6 @@ Along with the json object, csv file was also returned from the model. The accur
 
 Tables are stored in ***tables.json***
 
-# Explanation of the main files
-
-## *pipeline.py*
-
-This file contains the  main logic of building the rag_pipeline.
-
-Here is the  the visualisation of the pipeline
-
-![1763662576026](image/readme/1763662576026.png)
-
-
-
-
-
 # Embedding Model Summary
 
 This project uses the **sentence-transformers/all-mpnet-base-v2** embedding model.
@@ -129,7 +124,15 @@ It is a  **local** , state-of-the-art sentence embedding model designed to conve
 * Works seamlessly with Chroma for fast vector storage and retrieval.
 * Can be run on CPU  without a problem.
 
-# Main files
+# Explanation of the main files
+
+## *pipeline.py*
+
+This file contains the  main logic of building the rag_pipeline.
+
+Here is the  the visualisation of the pipeline
+
+![1763662576026](image/readme/1763662576026.png)
 
 ## *build_vector_store.py*
 
@@ -172,7 +175,62 @@ Contains three functions
 
 Contains the api end point /ask to send queries via json, and returns the LLM answer and  referenced pages.
 
+---
 
+# Challenges and Solutions
+
+### **1. Parsing Tables Accurately**
+
+**Challenge:**
+
+The tables in the PDF were difficult for the LLM to understand in their raw text form. Converting them directly from the PDF often produced messy or incomplete results.
+
+**How I solved it:**
+
+* I used GPT-5.1 Vision to read each table from the PDF and convert it into a  **clean CSV file** .
+* Some tables were not extracted perfectly, so I manually reviewed and corrected the CSV files.
+* After cleaning, I converted the CSV files into  **HTML tables** , because the LLM understands the structure and relationships much better when the table is in HTML format.
+
+**Future improvement:**
+
+This entire workflow can be automated.
+
+A vision-based agent could:
+
+1. Detect all tables on a page
+2. Convert each table to CSV
+3. Allow the user to approve or edit the result
+4. Save the cleaned file automatically
+
+   This would remove the manual effort currently required.
+
+---
+
+### **2. Improving Retrieval Using Document Titles**
+
+**Challenge:**
+
+I noticed that sometimes the **title** of a chunk was more informative than the chunk content itself.
+
+This especially became a problem when the user asked  **multiple questions at once** , because pure semantic similarity didn't always prioritize the most relevant sections.
+
+**How I solved it:**
+
+* I added a **custom re-ranking step** to the retrieval pipeline.
+* After pulling the top 20–25 documents by vector similarity, I re-ranked them again based on  **how many query words appear in the document title** .
+* This “title overlap score” is multiplied by a  **weight** , which lets me adjust how strongly it affects the final ranking.
+
+**Result:**
+
+This improved accuracy noticeably—especially for multi-part questions or queries where the title carries more meaning than the content.
+
+The final retrieval pipeline now combines:
+
+* semantic similarity
+* title overlap score
+* adjustable weighting
+
+to produce more reliable results.
 
 # How to run the app
 
@@ -180,7 +238,7 @@ After cloning the remote repo
 
 `https://github.com/perviz822/boeing_737.git`
 
-1. Create  .env file in the root folder
+1. Create  .env file in the root folder and place the env variables
    then->
 2. `pip install -r requirements.txt`
    then->

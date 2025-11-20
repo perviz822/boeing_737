@@ -12,7 +12,7 @@ from embeddings import  load_embeddings
 load_dotenv()
 
 
-DATA_DIR = Path(".")  # change if your JSONs are in another folder
+DATA_DIR = Path(".")  
 PERSIST_DIR = "chroma_db"  # local folder where Chroma will store data
 
 splitter = RecursiveCharacterTextSplitter(

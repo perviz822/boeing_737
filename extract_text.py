@@ -138,7 +138,7 @@ def extract_chunks_by_headers(
     # Step 2 — Sort in reading order
     headers.sort(key=lambda h: (h["page"], h["y0"]))
 
-    # Step 3 — Add sentinel final header
+    # Step 3 — Add    fake  final header for a sstop condition
     headers = add_end_boundary(headers, end_page)
 
     # Step 4 — Extract chunks
@@ -171,7 +171,6 @@ def extract_chunks_by_headers(
 # ======================================================================
 
 if __name__ == "__main__":
-    # Ensure the path matches your local file structure
     chunks = extract_chunks_by_headers(
         "raw_documents/boeing_manual.pdf",
         start_page=0, 
